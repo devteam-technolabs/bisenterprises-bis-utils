@@ -1,0 +1,31 @@
+{
+	"name": "@bisenterprises/ema-validation",
+	"version": "1.10.1",
+	"description": "ema validation",
+	"files": [
+		"README.md",
+		"dist/",
+		"docs/"
+	],
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "webpack",
+		"lint": "eslint",
+		"precommit": "lint-staged",
+		"test": "jest",
+		"test:coverage": "yarn test --coverage",
+		"watch": "webpack --watch --mode=development"
+	},
+	"dependencies": {
+		"lodash": "^4.17.11"
+	},
+	"gitHead": "3a1fcf2628cec772904674ccba29d94277ec0560",
+	"devDependencies": {
+		"seamless-immutable": "^7.1.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.bisenterprises.com:7999/appdev/ema-utils-fe.git",
+		"directory": "packages/ema-validation"
+	}
+}

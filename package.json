@@ -1,0 +1,8 @@
+{
+    "name": "@bisenterprises/bis-utils",
+    "version": "0.6.8",
+    "description": "EMA front-end utilities",
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    }
+}
